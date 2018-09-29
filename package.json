@@ -1,0 +1,36 @@
+{
+  "name": "create-react-app-with-babel-7",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "^2.0.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-do-expressions": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-babel": "^5.2.1",
+    "eslint-plugin-prettier": "^2.7.0",
+    "react-app-rewire-eslint": "^0.2.3",
+    "react-app-rewired": "^1.6.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
