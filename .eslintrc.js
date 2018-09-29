@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
     'eslint:recommended',
-    'plugin:react/recommended',
     'plugin:prettier/recommended',
     'prettier/react',
   ],
@@ -9,8 +8,14 @@ module.exports = {
   plugins: ['babel'],
   rules: {
     quotes: ['error', 'single'],
-    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
-    'no-console': process.env.NODE_ENV === 'production' ? 2 : 0,
+    'no-debugger':
+      process.env.NODE_ENV === 'production'
+        ? 2
+        : 0,
+    'no-console':
+      process.env.NODE_ENV === 'production'
+        ? 2
+        : 0,
     'babel/no-unused-expressions': 1,
     'prettier/prettier': [
       'error',
@@ -19,6 +24,7 @@ module.exports = {
         semi: false,
         trailingComma: 'all',
         jsxBracketSameLine: true,
+        printWidth: 50, // for JSX props line
       },
     ],
   },
