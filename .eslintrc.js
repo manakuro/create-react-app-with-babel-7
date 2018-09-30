@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
+    'react-app', // for editor
     'eslint:recommended',
     'plugin:prettier/recommended',
     'prettier/react',
